@@ -6,11 +6,11 @@ class Student < User
   end
 
   def learn(string)
-    @knowledge << string
+    @knowledge << string #  takes in an argument of a string of knowledge and adds it to the student's knowledge
   end
 
   def knowledge
-    @knowledge
+    @knowledge #returns that student's knowledge array
   end
 
 end
