@@ -10,7 +10,7 @@ class Student < User
   end
 
   def knowledge
-    self.knowledge
-  end  
+    student.knowledge
+  end
 
 end
