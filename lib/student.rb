@@ -2,7 +2,7 @@ class Student < User
 
 
   def initialize
-    @knowledge = []
+    @knowledge = []  #initializes with an empty knowledge array
   end
 
   def learn(string)
